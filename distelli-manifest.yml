@@ -16,6 +16,7 @@ jaygoodfellow/DistelliTest:
     - wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
     - nvm install 4.1.1
     - nvm use 4.1.1
+    - echo "Done with nvm"
     - npm install -g pm2
     - echo "Done Installing PM2"
 
