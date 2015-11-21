@@ -8,9 +8,7 @@ jaygoodfellow/DistelliTest:
 
   Start:
     - echo "Starting application"
-    - /usr/local/bin/pm2 startOrGracefulReload app.js
-    - /usr/local/bin/pm2 logs
-    - node -v
+    - node app.js
 
   Terminate:
     - echo "Terminating application"
